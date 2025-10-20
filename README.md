@@ -41,4 +41,4 @@ The website consists of **4 main pages**:
 ## **How to Use / View**
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/go-green.git
+   git clone https://github.com/Devesh517/Go-Green.git
