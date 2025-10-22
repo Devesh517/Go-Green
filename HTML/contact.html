@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with Go Green Initiative. Contact us for eco-friendly consulting, partnerships, and sustainable living guidance.">
+  <meta name="keywords" content="contact go green, eco consulting, sustainability support, green initiative contact, environmental help">
+  <meta name="author" content="Go Green Initiative">
+  <meta property="og:title" content="Contact Go Green Initiative - Get In Touch">
+  <meta property="og:description" content="Reach out to us for sustainable living guidance and eco-friendly solutions.">
+  <meta property="og:type" content="website">
+  <title>Contact Us - Go Green Initiative | Get In Touch</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../CSS/contact.css">
+</head>
+<body>
+  <div class="main">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navcontainer">
+        <a href="#" class="logo">
+          <img src="../Images/logo.png" alt="Go Green Logo">
+          <span class="logo-text">Go Green</span>
+        </a>
+        <button class="navtoggle" id="navToggle" aria-label="Toggle navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="navmenu" id="navMenu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../HTML/about.html">About</a></li>
+          <li><a href="../HTML/gallery.html">Gallery</a></li>
+          <li><a href="../HTML/contact.html" class="active">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Header -->
+    <header class="hero-header">
+      <h1>Get In Touch</h1>
+      <p>We'd love to hear from you. Let's work together to make our planet greener!</p>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="contact-container">
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h2>Contact Information</h2>
+          <p>Ready to start your eco-friendly journey? Reach out to us through any of these channels.</p>
+          
+          <div class="info-cards">
+            <div class="info-card">
+              <span class="icon">📧</span>
+              <h3>Email</h3>
+              <p>devdhanwani15@gmail.com</p>
+              <a href="mailto:devdhanwani15@gmail.com" class="contact-link">Send Email</a>
+            </div>
+            
+            <div class="info-card">
+              <span class="icon">📞</span>
+              <h3>Phone</h3>
+              <p>+91 6350537767</p>
+              <a href="tel:+916350537767" class="contact-link">Call Now</a>
+            </div>
+            
+            <div class="info-card">
+              <span class="icon">📍</span>
+              <h3>Address</h3>
+              <p>3A Friends Colony<br>Vaishali Nagar, Ajmer<br>Rajasthan, India</p>
+              <a href="https://maps.google.com" target="_blank" rel="noopener" class="contact-link">View on Map</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrapper">
+          <h2>Send us a Message</h2>
+          <form id="contactForm" class="form">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+              <span class="error-message" id="nameError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+              <span class="error-message" id="emailError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+              <span class="error-message" id="phoneError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject *</label>
+              <select id="subject" name="subject" required>
+                <option value="">Select a subject</option>
+                <option value="general">General Inquiry</option>
+                <option value="partnership">Partnership</option>
+                <option value="support">Technical Support</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+              </select>
+              <span class="error-message" id="subjectError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help you..." required></textarea>
+              <span class="error-message" id="messageError"></span>
+            </div>
+
+            <div class="form-group">
+              <label class="checkbox-label">
+                <input type="checkbox" id="newsletter" name="newsletter">
+                Subscribe to our newsletter for eco-friendly tips
+              </label>
+            </div>
+
+            <button type="submit" class="submit-btn">
+              <span>Send Message</span>
+              <span>📤</span>
+            </button>
+
+            <div id="formMessage" class="form-message"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+      <div class="map-container">
+        <h2>Find Us</h2>
+        <div class="map-placeholder">
+          <div class="map-content">
+            <span class="map-icon">🗺️</span>
+            <h3>Our Location</h3>
+            <p>3A Friends Colony, Vaishali Nagar<br>Ajmer, Rajasthan, India</p>
+            <a href="https://maps.google.com" target="_blank" rel="noopener" class="map-btn">Open in Google Maps</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="footer-logo">
+            <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=100&h=100&fit=crop" alt="Go Green">
+            <h3>Go Green</h3>
+          </div>
+          <p>Making the world greener, one step at a time. Join us in creating a sustainable future for generations to come.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook"><img src="../Images/facebook.png" alt=""></a>
+            <a href="#" class="social-link" aria-label="Instagram"><img src="../Images/insta.png" alt=""></a>
+            <a href="#" class="social-link" aria-label="Twitter"><img src="../Images/twitter.png" alt=""></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"><img src="../Images/linkedin.png" alt=""></a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../HTML/about.html">About Us</a></li>
+            <li><a href="../HTML/gallery.html">Gallery</a></li>
+            <li><a href="../HTML/contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="#">Eco Consulting</a></li>
+            <li><a href="#">Green Solutions</a></li>
+            <li><a href="#">Sustainability Training</a></li>
+            <li><a href="#">Environmental Awareness</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Contact Info</h4>
+          <p>📧 devesh.dhanwani2005@gmail.com</p>
+          <p>📞 +91 6350537767</p>
+          <p>📍 Rajasthan, India</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Go Green Initiative. All rights reserved. | Made for a greener planet 🌍🌱</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="../JS/contact.js">
+    
+  </script>
+</body>
+</html>
